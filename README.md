@@ -119,8 +119,6 @@ print(data["scores"]["overall"], data["intelligence"]["trust_score"])
 
 ## 🖼️ Screenshots
 
-> _Add real screenshots here — the dashboard, a scan report, the usage analytics._
-
 | Dashboard | Scan report | Usage & credits |
 |---|---|---|
 | ![Dashboard](assets/screenshot-dashboard.png) | ![Report](assets/screenshot-report.png) | ![Usage](assets/screenshot-usage.png) |
@@ -129,8 +127,8 @@ print(data["scores"]["overall"], data["intelligence"]["trust_score"])
 
 ```
         ┌────────────┐     HTTPS      ┌────────────────────┐
-Client ─┤  Your app  ├──────────────►│  InsightAPI (Go)   │
-        └────────────┘   X-API-Key    │  fan-out engine    │
+Client ─┤  Your app  ├──────────────► │     InsightAPI     │
+        └────────────┘   X-API-Key    │   fan-out engine   │
                                       └─────────┬──────────┘
               concurrent, per-module timeouts   │
      ┌───────────┬───────────┬─────────┬────────┴─────────┐
@@ -157,21 +155,6 @@ async job system powers the heavier **deep scan**.
 | **Enterprise** | Custom | Unlimited | Private regions, custom modules, dedicated CSM |
 
 <p align="center"><a href="https://insightapi.dev"><b>Start your free trial →</b></a></p>
-
-## 🛠️ Tech stack
-
-**Go** core (concurrent fan-out engine) · **Supabase** auth · **PayPal**
-subscriptions · **Caddy** + HTTPS · in-house fingerprint & signature databases.
-
-## 🗺️ Roadmap
-
-- [x] DNS · TLS · Security headers · Tech detection · SEO problems · Trust score
-- [x] Accounts, API keys, usage analytics, webhooks, PayPal billing
-- [ ] AI-written executive report & recommendations
-- [ ] Competitor comparison
-- [ ] Historical change detection (tech/SSL/DNS diffs over time)
-- [ ] Screenshots & Core Web Vitals (headless render)
-- [ ] Accessibility (WCAG) audit
 
 ## 📬 Contact
 
