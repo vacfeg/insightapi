@@ -11,7 +11,7 @@
   <img alt="uptime" src="https://img.shields.io/badge/uptime-99.9%25-00C853">
   <img alt="latency" src="https://img.shields.io/badge/scan-%3C2s-00C853">
   <img alt="api" src="https://img.shields.io/badge/API-REST-1f6feb">
-  <img alt="schema" src="https://img.shields.io/badge/schema-2024--06--01-8957e5">
+  <img alt="schema" src="https://img.shields.io/badge/schema-2026--07--01-8957e5">
   <img alt="license" src="https://img.shields.io/badge/license-Proprietary-lightgrey">
 </p>
 
